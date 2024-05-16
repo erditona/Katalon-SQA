@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UserAutority Test Suite,Chrome 124.0.0.0,SignUp Test Suite,,16-05-2024 15:57:43,16-05-2024 15:58:01,17.356s,PASSED
+,,,,,,,
+Test Cases/SignUp,Chrome 124.0.0.0,Test SignUp,Ursmartecosystem,16-05-2024 15:57:44,16-05-2024 15:58:01,16.997s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 15:57:44,16-05-2024 15:57:47,3.213s,PASSED
+"navigateToUrl(""https://ursmartecosystem.my.id/"")",Chrome 124.0.0.0,,,16-05-2024 15:57:47,16-05-2024 15:57:52,4.660s,PASSED
+"click(findTestObject(""Object Repository/Page_Ur Smart Ecosystem/p_Sign Up""))",Chrome 124.0.0.0,,,16-05-2024 15:57:52,16-05-2024 15:57:55,2.606s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Login here_emailsignup""), ""nausha1234@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 15:57:55,16-05-2024 15:57:56,0.859s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Email_phonesignup""), ""628574577810"")",Chrome 124.0.0.0,,,16-05-2024 15:57:56,16-05-2024 15:57:56,0.868s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Nomor telepon diawali 62, 7-13 karakt_13c933""), ""Nausha Adam"")",Chrome 124.0.0.0,,,16-05-2024 15:57:56,16-05-2024 15:57:57,0.836s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Signup form/input_Username_passwordsignup""), ""+z/8NVLO6v/8RKyO6TePEw=="")",Chrome 124.0.0.0,,,16-05-2024 15:57:57,16-05-2024 15:57:58,0.590s,PASSED
+"click(findTestObject(""Object Repository/Page_Signup form/button_Signup""))",Chrome 124.0.0.0,,,16-05-2024 15:57:58,16-05-2024 15:57:58,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Signup form/button_OK""))",Chrome 124.0.0.0,,,16-05-2024 15:57:58,16-05-2024 15:58:00,2.010s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 15:58:00,16-05-2024 15:58:01,0.412s,PASSED

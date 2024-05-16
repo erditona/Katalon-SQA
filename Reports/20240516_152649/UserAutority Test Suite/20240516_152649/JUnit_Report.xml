@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserAutority Test Suite" time="26.323" tests="1" failures="0" errors="0">
+   <testsuite name="UserAutority Test Suite" tests="1" failures="0" errors="0" time="26.323" skipped="0" timestamp="16-05-2024T15:27:13" hostname="Dito - LAPTOP-FUCV7D5J" id="Test Suites/UserAutority Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dito\\git\\Katalon-SQA\\Reports\\20240516_152649\\UserAutority Test Suite\\20240516_152649"/>
+         <property name="logFiles" value="C:\\Users\\Dito\\git\\Katalon-SQA\\Reports\\20240516_152649\\UserAutority Test Suite\\20240516_152649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dito - LAPTOP-FUCV7D5J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.11.1"/>
+         <property name="sessionId" value="c20bc909372d1cbf19edebb632ba70df"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SignUp" time="25.649" classname="Test Cases/SignUp" status="PASSED">
+         <system-out><![CDATA[16-05-2024T15:27:13 - [TEST_CASE][PASSED] - Test Cases/SignUp: Test Cases/SignUp
+
+16-05-2024T15:27:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-05-2024T15:27:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-05-2024T15:27:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-05-2024T15:27:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-05-2024T15:27:21 - [TEST_STEP][PASSED] - navigateToUrl("https://ursmartecosystem.my.id/"): Navigate to 'https://ursmartecosystem.my.id/' successfully
+
+16-05-2024T15:27:22 - [MESSAGE][PASSED] - Navigate to 'https://ursmartecosystem.my.id/' successfully
+
+16-05-2024T15:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Ur Smart Ecosystem/p_Sign Up")): Object: 'Object Repository/Page_Ur Smart Ecosystem/p_Sign Up' is clicked on
+
+16-05-2024T15:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ur Smart Ecosystem/p_Sign Up' is clicked on
+
+16-05-2024T15:27:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Signup form/input_Login here_emailsignup"), "nausha1234@gmail.com"): Text 'nausha1234@gmail.com' is set on object 'Object Repository/Page_Signup form/input_Login here_emailsignup'
+
+16-05-2024T15:27:33 - [MESSAGE][PASSED] - Text 'nausha1234@gmail.com' is set on object 'Object Repository/Page_Signup form/input_Login here_emailsignup'
+
+16-05-2024T15:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Signup form/input_Email_phonesignup"), "628574577810"): Text '628574577810' is set on object 'Object Repository/Page_Signup form/input_Email_phonesignup'
+
+16-05-2024T15:27:34 - [MESSAGE][PASSED] - Text '628574577810' is set on object 'Object Repository/Page_Signup form/input_Email_phonesignup'
+
+16-05-2024T15:27:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Signup form/input_Nomor telepon diawali 62, 7-13 karakt_13c933"), "Nausha Adam"): Text 'Nausha Adam' is set on object 'Object Repository/Page_Signup form/input_Nomor telepon diawali 62, 7-13 karakt_13c933'
+
+16-05-2024T15:27:35 - [MESSAGE][PASSED] - Text 'Nausha Adam' is set on object 'Object Repository/Page_Signup form/input_Nomor telepon diawali 62, 7-13 karakt_13c933'
+
+16-05-2024T15:27:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Signup form/input_Username_passwordsignup"), "+z/8NVLO6v/8RKyO6TePEw=="): Text ****** has been set on object 'Object Repository/Page_Signup form/input_Username_passwordsignup'
+
+16-05-2024T15:27:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Signup form/input_Username_passwordsignup'
+
+16-05-2024T15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Signup form/button_Signup")): Object: 'Object Repository/Page_Signup form/button_Signup' is clicked on
+
+16-05-2024T15:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup form/button_Signup' is clicked on
+
+16-05-2024T15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Signup form/button_OK")): Object: 'Object Repository/Page_Signup form/button_OK' is clicked on
+
+16-05-2024T15:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup form/button_OK' is clicked on
+
+16-05-2024T15:27:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2024T15:27:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2024T15:27:13 - [TEST_SUITE][PASSED] - UserAutority Test Suite: Test Cases/SignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
