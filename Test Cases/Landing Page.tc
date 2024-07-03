@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Landing Page</description>
+   <name>Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>899edc93-298f-4335-aa62-432db91bbf13</testCaseGuid>
+</TestCaseEntity>

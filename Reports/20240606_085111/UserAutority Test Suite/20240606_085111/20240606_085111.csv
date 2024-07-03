@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UserAutority Test Suite,Chrome 125.0.0.0,SignUp Test Suite,,06-06-2024 08:51:21,06-06-2024 08:52:54,1m - 32.842s,FAILED
+,,,,,,,
+Test Cases/SignUp,Chrome 125.0.0.0,Test SignUp,Ursmartecosystem,06-06-2024 08:51:22,06-06-2024 08:52:48,1m - 26.707s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,06-06-2024 08:51:22,06-06-2024 08:51:25,3.494s,PASSED
+"navigateToUrl(""https://ursmartecosystem.my.id/"")",Chrome 125.0.0.0,,,06-06-2024 08:51:25,06-06-2024 08:51:55,29.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Ur Smart Ecosystem/p_Sign Up""))",Chrome 125.0.0.0,,,06-06-2024 08:51:55,06-06-2024 08:52:00,4.949s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Login here_emailsignup""), ""nausha1234@gmail.com"")",Chrome 125.0.0.0,,,06-06-2024 08:52:00,06-06-2024 08:52:04,3.651s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Email_phonesignup""), ""628574577810"")",Chrome 125.0.0.0,,,06-06-2024 08:52:04,06-06-2024 08:52:08,3.918s,PASSED
+"setText(findTestObject(""Object Repository/Page_Signup form/input_Nomor telepon diawali 62, 7-13 karakt_13c933""), ""Nausha Adam"")",Chrome 125.0.0.0,,,06-06-2024 08:52:08,06-06-2024 08:52:12,4.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Signup form/input_Username_passwordsignup""), ""+z/8NVLO6v/8RKyO6TePEw=="")",Chrome 125.0.0.0,,,06-06-2024 08:52:12,06-06-2024 08:52:14,2.021s,PASSED
+"click(findTestObject(""Object Repository/Page_Signup form/button_Signup""))",Chrome 125.0.0.0,,,06-06-2024 08:52:14,06-06-2024 08:52:48,34.577s,FAILED
+,,,,,,,
+Test Cases/SignUp,Chrome 125.0.0.0,Test SignUp,Ursmartecosystem,06-06-2024 08:52:48,06-06-2024 08:52:54,5.845s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,06-06-2024 08:52:48,06-06-2024 08:52:50,1.886s,PASSED
+"navigateToUrl(""https://ursmartecosystem.my.id/"")",Chrome 125.0.0.0,,,06-06-2024 08:52:50,06-06-2024 08:52:54,3.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Ur Smart Ecosystem/p_Sign Up""))",Chrome 125.0.0.0,,,06-06-2024 08:52:54,06-06-2024 08:52:54,0.152s,FAILED
